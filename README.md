@@ -7,9 +7,9 @@ GPT-Proof is a Python-based algorithm that generates paraphrases of exam questio
 ## Features
 
 - Generates multiple paraphrases of exam questions using ChatGPT.
-- Tests generated questions with ChatGPT to ensure the originality of questions.
+- Tests answers ChatGPT gave to the paraphrases with itself to mark them as if a student wrote them.
 - Provides the option to adjust the amount of creativity required for generating paraphrases.
-- Saves all paraphrased questions, answers and marks in JSON files.
+- Saves all paraphrased questions, answers and marks in JSON files in an ascending order (the worst mark to the best).
 
 
 ## Getting Started
